@@ -15,6 +15,65 @@
 	</head>
 	<body>
 		<!-- Your layout here -->
+		<style>
+.flex-container {
+  display: flex;
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: space-between;
+	flex-direction: row;
+	background-color: dodgerblue;
+	align-content: flex-start;
+	justify-content: left;
+}
+			
+.row > div {
+/*   background-color: #B0B0B0; */
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+	.column > div {
+  background-color: #B0B0B0;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+	color: #B0B0B0;
+  line-height: 75px;
+  font-size: 30px;
+}
+			
+
+			
+		</style>
+<div class='flex-container'>
+	
+		 <div class='row'>
+    <div class='column'>
+				<div>a</div>
+    </div>
+    <div class='column'>
+				<div>a</div>
+    </div>
+    <div class='column'>
+     	 <div>a</div>
+				<div>a</div>
+    </div>
+			 <div class='column'>
+				<div>a</div>
+								<div>a</div>
+
+    </div>
+    <div class='column'>
+     	 <div>a</div>
+							<div>a</div>
+
+    </div>
+  </div>
+		</div>
+
 
 	</body>
 </html>
